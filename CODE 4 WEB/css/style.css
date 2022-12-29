@@ -3,7 +3,16 @@
 	margin-left:auto;
 	margin-right:auto;
 }
-body{ font-family:Arial, Helvetica, sans-serif; background:#FFF; margin:0px;}
+body{ font-family:Arial, Helvetica, sans-serif;
+	 background:#FFF; 
+	 background-color: white;
+	 color: black;
+	 margin:0px;}
+	 
+.dark-mode {
+	background-color: black;
+	color: white;
+  }
 .m30_auto{ margin:30px auto;}
 .main{ width:1024px;}
 .clearfix{ clear:both;}
@@ -24,7 +33,7 @@ body{ font-family:Arial, Helvetica, sans-serif; background:#FFF; margin:0px;}
 /************* Start Slider (or) Banner *************/
 .banner{ width:1100px; background:url(../imges/premium_photo.avif); height:800px; float:left; }
 .banner-links{ font-family:Arial, Helvetica, sans-serif; padding:145px 20px 50px;}
-.banner-links a{font-size:26px; padding:0px 20px; text-decoration:none; color:rgb(27, 3, 3); font-weight:600;}
+.banner-links a{font-size:26px; padding:0px 20px; text-decoration:none; color:rgb(62, 236, 97); font-weight:600;}
 .banner-links a:hover{ color:#000;}
 /************** End Slider (or) Banner *************/
 
