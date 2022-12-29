@@ -1,0 +1,98 @@
+@charset "utf-8"; /****   Developed by http://www.freetimelearning.com/    *****/
+*{
+	margin-left:auto;
+	margin-right:auto;
+}
+body{ font-family:Arial, Helvetica, sans-serif; background:#FFF; margin:0px;}
+.m30_auto{ margin:30px auto;}
+.main{ width:1024px;}
+.clearfix{ clear:both;}
+
+/*********** Start Header (or) Menu **********/
+.header{width:1024px; float:left; border-top:7px solid #0066dd; background:#F2F2F2;}
+.header-left{ width:250px; float:left;}
+.header-right{ 	width:774px; float:left;}
+.header-right ul{list-style:none;}
+.header-right ul li{
+	list-style:none; font-family:arial; font-size:14px; padding:5px 0px 15px 0px; 
+	margin:5px 0px 12px; float:left; font-weight:bold;
+}
+.header-right ul li a{ padding:5px 30px 10px; margin:2px 0px 5px; text-decoration:none; color:#000;}
+.header-right ul li a:hover{ color:#0099dd;}
+/*********** End Header (or) Menu **********/
+	
+/************* Start Slider (or) Banner *************/
+.banner{ width:1100px; background:url(../imges/premium_photo.avif); height:800px; float:left; }
+.banner-links{ font-family:Arial, Helvetica, sans-serif; padding:145px 20px 50px;}
+.banner-links a{font-size:26px; padding:0px 20px; text-decoration:none; color:rgb(27, 3, 3); font-weight:600;}
+.banner-links a:hover{ color:#000;}
+/************** End Slider (or) Banner *************/
+
+/*************** Start Content *****************/	
+.content{ width:1022px; height:auto; border:1px solid #CCC; float:left; padding-bottom:20px;}
+.content-left{ width:458px; height:auto; float:left; text-align:justify; padding:0px 20px; line-height:24px;}
+.content-right{ width:440px; height:auto; float:left; padding:0px 20px 0px 60px;}
+.content-header{color:#000; font-size:26px; text-align:center; padding:25px 10px 15px;}
+.content-header a{ color:#0099dd; text-decoration:none;}
+.content-header a:hover{ color:#069;}
+
+.content-bottom-boxes{ width:300px; float:left; padding:0px 20px; color:#000;}
+.content-bottom-bg{ background:#ebebeb; float:left; padding:20px 15px;}
+.content-bottom-bg-header{ font-size:18px; padding-bottom:15px;}
+.content-bottom-bg-p{ line-height:24px;}
+/************ End Content **************/
+
+/************ Start Testimonials ************/
+.testimonials{ width:1024px; background:url(../imges/testimonials-bg.jpg); height:309px; float:left; }
+.testimonials-h4{ font-size:26px; line-height:46px; padding:80px 100px; color:#FFF; text-align:center;}
+.testimonials a{ color:#CCC; font-size:18px; padding:20px 0px; text-align:center; text-decoration:none;}
+.testimonials a:hover{ color:#FFF;}
+/************ End Testimonials ************/
+
+/************ Start Footer *****************/
+#footer{ width:1024px; float:left; background:#CCC;}
+.footer-parts{ width:300px; float:left; padding:0px 20px;}
+.footer-parts-h4{ font-size:18px; padding:15px 10px 0px;}
+.footer-parts ul{list-style:none; padding:0px;}
+.footer-parts ul li{list-style:none; font-size:12px; padding:5px; margin:5px 0px; font-weight:bold;}
+.footer-parts ul li a{padding:8px 10px; margin:2px 0px; text-decoration:none; color:#000;}
+.footer-parts ul li a:hover{color:#FFF;}
+.copyrights{ width:964px; font-size:12px; background:#0099dd; float:left; padding:15px 30px 15px 30px; color:#FFF; }
+.copyrights-left{ width:664px; float:left;}
+.copyrights-left a{ color:#FFF; text-decoration:none;}
+.copyrights-left a:hover{color:#CCC;}
+.copyrights-right{ width:300px; float:left; text-align:right;}
+.copyrights-right a{ color:#FFF; text-decoration:none;}
+.copyrights-right a:hover{color:#CCC;}
+
+.demo10{background:#C0BFBF;padding:30px 0}
+.pricingTable10{text-align:center}
+.pricingTable10 .pricingTable-header{padding:30px 0;background:#e01111;position:relative;transition:all .3s ease 0s}
+.pricingTable10:hover .pricingTable-header{background:#0bf7ac}
+.pricingTable10 .pricingTable-header:after,.pricingTable10 .pricingTable-header:before{content:"";width:5px;height:10px;border-radius:50%;border:1px solid #d9d9d8;position:absolute;bottom:12px}
+.pricingTable10 .pricingTable-header:before{left:40px}
+.pricingTable10 .pricingTable-header:after{right:40px}
+.pricingTable10 .heading{font-size:20px;color:#fff;text-transform:uppercase;letter-spacing:2px;margin-top:0}
+.pricingTable10 .price-value{display:inline-block;position:relative;font-size:55px;font-weight:700;color:#09b1c5;transition:all .3s ease 0s}
+.pricingTable10:hover .price-value{color:#fff}
+.pricingTable10 .currency{font-size:30px;font-weight:700;position:absolute;top:6px;left:-19px}
+.pricingTable10 .month{font-size:16px;color:#fff;position:absolute;bottom:15px;right:-30px;text-transform:uppercase}
+.pricingTable10 .pricing-content{padding-top:50px;background:#fff;position:relative}
+.pricingTable10 .pricing-content:after,.pricingTable10 .pricing-content:before{content:"";width:16px;height:16px;border-radius:50%;border:1px solid #7c7c7c;position:absolute;top:12px}
+.pricingTable10 .pricing-content:before{left:40px}
+.pricingTable10 .pricing-content:after{right:40px}
+.pricingTable10 .pricing-content ul{padding:0 20px;margin:0;list-style:none}
+.pricingTable10 .pricing-content ul:after,.pricingTable10 .pricing-content ul:before{content:"";width:8px;height:46px;border-radius:3px;background:linear-gradient(to bottom,#818282 50%,#727373 50%);position:absolute;top:-22px;z-index:1;box-shadow:0 0 5px #707070;transition:all .3s ease 0s}
+.pricingTable10:hover .pricing-content ul:after,.pricingTable10:hover .pricing-content ul:before{background:linear-gradient(to bottom,#40c4db 50%,#34bacc 50%)}
+.pricingTable10 .pricing-content ul:before{left:44px}
+.pricingTable10 .pricing-content ul:after{right:44px}
+.pricingTable10 .pricing-content ul li{font-size:15px;font-weight:700;color:#777473;padding:10px 0;border-bottom:1px solid #d9d9d8}
+.pricingTable10 .pricing-content ul li:last-child{border-bottom:none}
+.pricingTable10 .read{display:inline-block;font-size:16px;color:#fff;text-transform:uppercase;background:#d9d9d8;padding:8px 25px;margin:30px 0;transition:all .3s ease 0s}
+.pricingTable10 .read:hover{text-decoration:none}
+.pricingTable10:hover .read{background:#09b1c5}
+@media screen and (max-width:990px){.pricingTable10{margin-bottom:25px}
+}
+/* Credit to https://bootsnipp.com/snippets/92erW */
+/*************** End Footer ***********/
+
