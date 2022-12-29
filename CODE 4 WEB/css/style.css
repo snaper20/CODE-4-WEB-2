@@ -27,7 +27,7 @@ body{ font-family:Arial, Helvetica, sans-serif;
 /*********** End Header (or) Menu **********/
 	
 /************* Start Slider (or) Banner *************/
-.banner{ width:1100px; background:url(../imges/premium_photo.avif); height:800px; float:left; }
+.banner{ width:1024px; background:url(../imges/premium_photo.avif); height:800px; float:left; }
 .banner-links{ font-family:Arial, Helvetica, sans-serif; padding:145px 20px 50px;}
 .banner-links a{font-size:26px; padding:0px 20px; text-decoration:none; color:rgb(62, 236, 97); font-weight:600;}
 .banner-links a:hover{ color:#000;}
