@@ -5,20 +5,16 @@
 }
 body{ font-family:Arial, Helvetica, sans-serif;
 	 background:#FFF; 
-	 background-color: white;
-	 color: black;
+	 
 	 margin:0px;}
 	 
-.dark-mode {
-	background-color: black;
-	color: white;
-  }
+
 .m30_auto{ margin:30px auto;}
 .main{ width:1024px;}
 .clearfix{ clear:both;}
 
 /*********** Start Header (or) Menu **********/
-.header{width:1024px; float:left; border-top:7px solid #0066dd; background:#F2F2F2;}
+.header{width:1024px; float:left; border-top:7px solid #f0f4f8; background:#F2F2F2;}
 .header-left{ width:250px; float:left;}
 .header-right{ 	width:774px; float:left;}
 .header-right ul{list-style:none;}
@@ -39,14 +35,7 @@ body{ font-family:Arial, Helvetica, sans-serif;
 
 /*************** Start Content *****************/	
 .content{ width:1022px; height:auto; border:1px solid #CCC; float:left; padding-bottom:20px;}
-.content-left{ width:458px; height:auto; float:left; text-align:justify; padding:0px 20px; line-height:24px;
-background-color: white;
-color: black;
-}
-.dark{
-	background-color: black;
-	color: white;
-}
+.content-left{ width:458px; height:auto; float:left; text-align:justify; padding:0px 20px; line-height:24px;}
 .content-right{ width:440px; height:auto; float:left; padding:0px 20px 0px 60px;}
 .content-header{color:#000; font-size:26px; text-align:center; padding:25px 10px 15px;}
 .content-header a{ color:#0099dd; text-decoration:none;}
@@ -109,6 +98,38 @@ color: black;
 .pricingTable10:hover .read{background:#09b1c5}
 @media screen and (max-width:990px){.pricingTable10{margin-bottom:25px}
 }
+.abab{
+	transition: 1.5s;
+}
+.night-toggle {
+	width: 33px;
+	height: 33px;
+	right: 20px;
+	top: 50px;
+	position: absolute;
+	}
+	.night-toggle:hover{
+	cursor: pointer;
+	}
+	.moon {
+	background-color: transparent;
+	box-shadow: -6px 1px 0 3px #275e8e;
+	border-left:3px solid #27476D;
+	border-radius:50%;
+	width: 20px;
+	height: 20px;
+	margin-left:8px;
+	margin-top:0px;
+	transition: 2s;
+	}
+	.sun {
+		background-color: #fdd462;
+		box-shadow: 2px 0px 0px 1px #D19C29;
+		border-radius:50%;
+		width: 26px;
+		height: 26px;
+		transition: 2s;
+		}
 /* Credit to https://bootsnipp.com/snippets/92erW */
 /*************** End Footer ***********/
 
