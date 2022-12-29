@@ -39,7 +39,14 @@ body{ font-family:Arial, Helvetica, sans-serif;
 
 /*************** Start Content *****************/	
 .content{ width:1022px; height:auto; border:1px solid #CCC; float:left; padding-bottom:20px;}
-.content-left{ width:458px; height:auto; float:left; text-align:justify; padding:0px 20px; line-height:24px;}
+.content-left{ width:458px; height:auto; float:left; text-align:justify; padding:0px 20px; line-height:24px;
+background-color: white;
+color: black;
+}
+.dark{
+	background-color: black;
+	color: white;
+}
 .content-right{ width:440px; height:auto; float:left; padding:0px 20px 0px 60px;}
 .content-header{color:#000; font-size:26px; text-align:center; padding:25px 10px 15px;}
 .content-header a{ color:#0099dd; text-decoration:none;}
