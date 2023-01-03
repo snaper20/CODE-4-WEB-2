@@ -9,13 +9,6 @@
 
 
 <body>
-    
-  <button onclick="topFunction()" id="myBtn" title="Go to top">↨</button>
-  
-
-
-  <div style="background-color:rgb(244, 240, 240);padding:30px 30px 2400px">
-   
 
 <div class="main">
 
@@ -262,7 +255,8 @@
         </div>
     </div>
     <div class="content-bottom-boxes">
-        <img src="imges/tl98.jpg" width="300" height="300" />
+        <div class="con-img">        <img src="imges/tl98.jpg" width="300" height="300" /></div>
+
         <div class="content-bottom-bg">
             <div class="content-bottom-bg-header">SAPTARSHI PARUI</div>
             <div class="content-bottom-bg-p">
@@ -331,8 +325,7 @@
     <!------ End Footer ------->
     
     </div>
-    </div>
-
+    
 <script>
     
     function switchMode() {
@@ -349,28 +342,5 @@ document.body.style.color = "#000";
 } }
 
 </script>
-<script>
-    // Get the button:
- let mybutton = document.getElementById("myBtn");
- 
- // When the user scrolls down 20px from the top of the document, show the button
- window.onscroll = function() {scrollFunction()};
- 
- function scrollFunction() {
-   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-     mybutton.style.display = "block";
-   } else {
-     mybutton.style.display = "none";
-   }
- }
- 
- // When the user clicks on the button, scroll to the top of the document
- function topFunction() {
-   document.body.scrollTop = 0; // For Safari
-   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
- }
- 
-   </script>
-
 </body>
 </html>
